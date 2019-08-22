@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jie Ren on Jie Ren</title>
-    <link>https://lancasterjie.github.io/home//</link>
+    <link>https://lancasterjie.github.io/home/</link>
     <description>Recent content in Jie Ren on Jie Ren</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
@@ -15,20 +15,20 @@
     
     <item>
       <title>Proteus: Network-aware Web Browsing on Heterogeneous Mobile Systems</title>
-      <link>https://lancasterjie.github.io/home//publication/conext18/</link>
+      <link>https://lancasterjie.github.io/home/publication/conext18/</link>
       <pubDate>Fri, 10 Aug 2018 00:00:00 +0100</pubDate>
       
-      <guid>https://lancasterjie.github.io/home//publication/conext18/</guid>
+      <guid>https://lancasterjie.github.io/home/publication/conext18/</guid>
       <description></description>
     </item>
     
    
     <item>
       <title>To Compress, or Not to Compress: Characterizing Deep Learning Model Compression for Embedded Inference</title>
-      <link>https://lancasterjie.github.io/home//publication/ispa18/</link>
+      <link>https://lancasterjie.github.io/home/publication/ispa18/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://lancasterjie.github.io/home//publication/ispa18/</guid>
+      <guid>https://lancasterjie.github.io/home/publication/ispa18/</guid>
       <description></description>
     </item>
     
