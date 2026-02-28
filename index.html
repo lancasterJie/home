@@ -1,638 +1,471 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-
+<html lang="en">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.42" />
   <meta name="author" content="Jie Ren">
+  <meta name="description" content="Jie Ren | Associate Professor | Compiler, Systems, and Edge AI Researcher">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:site_name" content="Jie Ren">
+  <meta property="og:title" content="Jie Ren">
+  <meta property="og:description" content="Associate Professor | Compiler, Systems, and Edge AI Researcher">
+  <meta property="og:url" content="https://lancasterjie.github.io/home/">
+  <meta property="og:locale" content="en-gb">
+  <meta property="og:updated_time" content="2026-02-28T00:00:00+00:00">
+  <meta property="twitter:card" content="summary_large_image">
+  <title>Jie Ren</title>
 
-  <script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "https://hm.baidu.com/hm.js?abf2e9f18622c1aac8979195271c852e";
-	  var s = document.getElementsByTagName("script")[0];
-	  s.parentNode.insertBefore(hm, s);
-	})();
-</script>
-
-  <meta name="description" content="Mobile Computing Researcher">
-
+  <link rel="canonical" href="https://lancasterjie.github.io/home/">
   <link rel="alternate" hreflang="en-gb" href="https://lancasterjie.github.io/home/">
-
-  <meta name="theme-color" content="#0095eb">
-
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
-
-  <link rel="stylesheet" href="/home/styles.css">
-
-  <link rel="stylesheet" href="/home/css/markdown.css">
-
   <link rel="alternate" href="https://lancasterjie.github.io/home/index.xml" type="application/rss+xml" title="Jie Ren">
   <link rel="feed" href="https://lancasterjie.github.io/home/index.xml" type="application/rss+xml" title="Jie Ren">
-
   <link rel="manifest" href="https://lancasterjie.github.io/home/site.webmanifest">
   <link rel="icon" type="image/png" href="https://lancasterjie.github.io/home/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="home/img/icon-192.png">
 
-  <link rel="canonical" href="https://lancasterjie.github.io/home/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3:400,500,600,700|Merriweather:700">
 
-  <meta property="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      --text: #222;
+      --muted: #666;
+      --light: #8a8a8a;
+      --border: #e7e7e7;
+      --bg-soft: #fafafa;
+      --link: #1a5fb4;
+      --maxw: 1040px;
+    }
 
-  <meta property="og:site_name" content="Jie Ren">
-  <meta property="og:url" content="https://lancasterjie.github.io/home/">
-  <meta property="og:title" content="Jie Ren">
-  <meta property="og:description" content="mobile-computing Researcher">
-  <meta property="og:locale" content="en-gb">
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.72;
+      font-size: 18px;
+      padding-top: 70px;
+    }
 
-  <meta property="og:updated_time" content="2019-07-17T00:00:00&#43;01:00">
+    a { color: var(--link); }
+    a:hover, a:focus { color: #144a8d; text-decoration: none; }
+    p { margin: 0 0 16px; }
+    ul { padding-left: 22px; margin-bottom: 0; }
+    li { margin-bottom: 7px; }
 
-  <title>Jie Ren</title>
+    .container { max-width: var(--maxw); width: auto; }
 
+    .navbar-custom {
+      background: rgba(255,255,255,.97);
+      border: 0;
+      border-bottom: 1px solid var(--border);
+      box-shadow: none;
+      min-height: 64px;
+    }
+    .navbar-custom .navbar-brand {
+      color: #111;
+      font-weight: 700;
+      font-size: 24px;
+      height: 64px;
+      line-height: 34px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .navbar-custom .navbar-nav > li > a {
+      color: #444;
+      font-size: 16px;
+      font-weight: 500;
+      padding-top: 22px;
+      padding-bottom: 20px;
+    }
+    .navbar-custom .navbar-nav > li > a:hover,
+    .navbar-custom .navbar-nav > li > a:focus {
+      color: #111;
+      background: transparent;
+    }
+    .navbar-custom .navbar-toggle {
+      margin-top: 15px;
+      border: 0;
+    }
+    .navbar-custom .icon-bar { background: #333; }
+
+    .main-wrap { padding: 22px 15px 54px; }
+    .hero {
+      padding: 18px 0 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 38px;
+      align-items: start;
+    }
+    .profile-card {
+      position: sticky;
+      top: 94px;
+    }
+    .portrait {
+      width: 220px;
+      height: 220px;
+      border-radius: 6px;
+      background: url('img/self.jpg') center/cover no-repeat;
+      border: 1px solid var(--border);
+      margin-bottom: 18px;
+    }
+    .profile-name {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 34px;
+      line-height: 1.2;
+      margin: 0 0 8px;
+      color: #111;
+    }
+    .profile-title,
+    .profile-org {
+      font-size: 19px;
+      color: #444;
+      margin: 0 0 6px;
+    }
+    .profile-org { margin-bottom: 14px; }
+    .profile-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
+    .profile-links li { margin: 0; }
+    .profile-links a {
+      color: #333;
+      font-size: 23px;
+    }
+    .profile-links a:hover { color: #111; }
+
+    .hero-content h1 {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 38px;
+      line-height: 1.2;
+      margin: 0 0 16px;
+      color: #111;
+    }
+    .hero-content h2 {
+      font-size: 30px;
+      margin: 42px 0 14px;
+      font-family: 'Merriweather', Georgia, serif;
+      color: #111;
+    }
+    .hero-content .lead {
+      font-size: 20px;
+      color: #333;
+    }
+    .opportunity-note {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      background: var(--bg-soft);
+      border-radius: 4px;
+      color: #333;
+      font-size: 17px;
+    }
+
+    .section-block {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-block:last-of-type { border-bottom: 0; }
+    .section-title {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 31px;
+      line-height: 1.2;
+      margin: 0 0 20px;
+      color: #111;
+    }
+    .section-content { max-width: 860px; }
+
+    .news-list,
+    .plain-list,
+    .contact-list {
+      list-style: disc;
+    }
+
+    .pub-item,
+    .project-item {
+      padding: 0 0 18px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .pub-item:last-child,
+    .project-item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+    .pub-venue {
+      display: inline-block;
+      font-size: 14px;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .pub-title,
+    .project-title {
+      font-size: 22px;
+      line-height: 1.4;
+      color: #111;
+      font-weight: 600;
+      margin: 0 0 4px;
+    }
+    .pub-authors,
+    .pub-meta,
+    .project-meta,
+    .muted {
+      color: var(--muted);
+    }
+    .more-link {
+      margin-bottom: 18px;
+      display: inline-block;
+      font-weight: 600;
+    }
+
+    .contact-list {
+      padding-left: 22px;
+    }
+    .contact-list li {
+      margin-bottom: 10px;
+    }
+
+    .site-footer {
+      padding: 28px 0 48px;
+      color: var(--light);
+      font-size: 16px;
+    }
+    .site-footer a { color: var(--light); }
+
+    @media (max-width: 991px) {
+      body { font-size: 17px; }
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+      .profile-card {
+        position: static;
+      }
+      .portrait {
+        width: 180px;
+        height: 180px;
+      }
+      .hero-content h1 { font-size: 34px; }
+      .hero-content h2,
+      .section-title { font-size: 28px; }
+    }
+
+    @media (max-width: 767px) {
+      body { padding-top: 62px; }
+      .main-wrap { padding-left: 8px; padding-right: 8px; }
+      .navbar-custom .navbar-brand { font-size: 22px; }
+      .hero-content h1 { font-size: 30px; }
+      .hero-content h2,
+      .section-title { font-size: 25px; }
+      .pub-title,
+      .project-title { font-size: 20px; }
+      .navbar-custom .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
+  </style>
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
-
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
-  <div class="container">
-
-    <div class="navbar-header">
-
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
-      <a class="navbar-brand" href="/">Jie Ren</a>
-    </div>
-
-    <div class="collapse navbar-collapse">
-
-      <ul class="nav navbar-nav navbar-right">
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#about" data-target="#about">
-
-            <span>Home</span>
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#team" data-target="#team">
-
-            <span>Team</span>
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#news" data-target="#news">
-
-            <span>News</span>
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#publications" data-target="#publications">
-
-            <span>Publications</span>
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#projects" data-target="#projects">
-
-            <span>Research Projects</span>
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#teaching" data-target="#teaching">
-
-            <span>Teaching</span>
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#services" data-target="#services">
-
-            <span>Services</span>
-
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a href="https://lancasterjie.github.io/home/#contact" data-target="#contact">
-
-            <span>Contact</span>
-
-          </a>
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-<span id="homepage" style="display: none"></span>
-
-  <section id="about" class="home-section">
+<body id="top">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-custom" id="navbar-main">
     <div class="container">
-
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-  <div class="col-xs-12 col-md-4">
-    <div id="profile">
-
-      <div class="portrait" style="background: url('img/self.jpg');"></div>
-      <meta itemprop="image" content="https://lancasterjie.github.io/home/img/self.jpg">
-
-      <div class="portrait-title">
-        <h2 itemprop="name">Jie Ren</h2>
-        <h3 itemprop="jobTitle">Mobile-computing Researcher</h3>
-
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-
-          <span itemprop="name">Shaanxi Normal University</span>
-          </a>
-        </h3>
-
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#top">Jie Ren</a>
       </div>
-
-      <link itemprop="url" href="https://lancasterjie.github.io/home/">
-
-      <ul class="network-icon" aria-hidden="true">
-
-        <li>
-          <a itemprop="sameAs" href="mailto:renjie@snnu.edu.cn" target="_blank" rel="noopener">
-            <i class="fa fa-envelope big-icon"></i>
-          </a>
-        </li>
-
-        <li>
-          <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=8qUoHroAAAAJ&hl=en&amp;hl=en" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-xs-12 col-md-8" itemprop="description">
-
-<!-- <h4 id="zheng-wang-chinese-name-img-name-png">Jie Ren <img src="img/name.png" alt="Chinese Name" /></h4> -->
-
-<h4 Compilers, Binary Analysis, Edge AI, and Mobile Systems /></h4>
-
-I work on efficient computing for resource-constrained systems, with interests spanning program optimization, binary analysis and decompilation, mobile and edge AI, and large-model inference efficiency.
-
-My goal is to build practical systems that connect compiler techniques, machine learning, and real-world deployment on modern platforms.
-
-<div class="alert alert-note">
-  <p>博导，现招收2026届硕士研究生3名（学校对学院极其重视，每年分给到学院的博士名额约0.15人/年，speechless），感兴趣的同学请发送个人简历及本科成绩单到邮箱（renjie@snnu.edu.cn），经我校免试推荐，面试合格后提前加入课题组的学生，将获得课题组的助研奖金。同时欢迎博士后加入团队，主打我有的你也有，平等自由合作，具备独立人格的PI。希望你喜欢计算机专业, 对编程实践感兴趣, 有一定的科研追求和探索世界的欲望，highly self-motivated students。主要研究方向为高能效移动系统，具体围绕程序编译优化(程序逆向工程，迭代编译，AI编译器等)、端侧AI（轻量级部署、快速推理、低成本分布式训练，端侧Agent等）内容展开研究。希望可以为你的学习和成长提供充分的帮助，一起探索计算机中有趣的内容。</p>
-</div>
-
-<div class="alert alert-note">
-  <p>PS: 欢迎厂商及不同领域研究人员沟通交流或给offer（工业界、高校及研究所-之前在IBM做过实习生，现在依然每天coding在前线），参与到产品研发或跨学科解决对方行业痛点，如果有博士点希望最少能每2年分到一个博士名额。 </p>
-</div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  <section id="news" class="home-section">
-    <div class="container">
-
-<div class="row">
-
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>News</h1>
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-    <ul>
-<li>[April, 2025]Our paper  STRONGLIVE: Adaptive Offloading and Scene-Aware SR Learning for 4K Live Streaming on Mobile Devices is accepted by <a href="" target="_blank">IWQoS &lsquo;2025</a></li>
-<li>[April, 2025]Our paper Optimizing Personalized Federated Learning through Adaptive Layer-Wise Learning is accepted by <a href="" target="_blank">IJCAI &lsquo;2025</a></li>
-<li>[March, 2025]Our paper The Impact of Unsupervised Feature Selection Techniques on the Performance and Interpretation of Defect Prediction Models is accepted by <a href="" target="_blank">Automated Software Engineering&lsquo;2025</a></li>
-<li>[Fed, 2025] Our paper LLVMTuner: Predictive Compiler Optimization for LLVM IR Across Heterogeneous Platforms is accepted by <a href="http://2025.cscwd.org//" target="_blank">CSCWD&lsquo;2025</a></li>
-
-</ul>
-
-  </div>
-
-</div>
-
-    </div>
-  </section>
-
-  <section id="team" class="home-section">
-    <div class="container">
-
-<div class="row">
-
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Research Team</h1>
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-<h2 id="phd-students">Graduate Students</h2>
-
-<ul>
-<li>Xuchen Yang,  9 / 2025 - ;</a></li>
-<li>Ni Zhang,  9 / 2025 - ;</a></li>
-<li>Yiqi Liu,  9 / 2024 - ;</a></li>
-<li>Zepeng Li,  9 / 2024 - ;</a></li>
-<li>Chenxi Zhu,  9 / 2024 - ;</a></li>
-<li>Cheng Yang,  9 / 2024 - ;</a></li>
-<li>Xiaoao Zhu,  9 / 2023 - ;</a></li>
-
-</ul>
-<h2 id="alumnus">Alumni</h2>
-
-    <p class="view-all">
-      <a href="/home/alumnis.html">
-        More Alumni
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
-
-<ul>
-  <li>Rongqing Liu, 9 / 2022 -06 / 2025 (Graduate student) -first job: 中芯国际-算法, 上海</a></li>
-<li>Weihang Chen, 9 / 2022 - 06 / 2025 (Graduate student) -first job: 格力-软开，珠海</a></li>
-<li>Chenge Jia, 09 / 2021 - 06 / 2024 (Graduate student) -first job: 中国东方航空股份有限公司信息部, Xi'an</li>
-<li>Yuhua Wang, 09 / 2021 - 06 / 2024 (Graduate student) -first job: 电信科学技术第十研究所, Xi'an</li>
-
-</ul>
-
-  </div>
-
-</div>
-
-    </div>
-  </section>
-
-  <section id="publications" class="home-section">
-    <div class="container">
-
-<div class="row">
-
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent Publications</h1>
-
-    <p class="view-all">
-      <a href="/home/publications.html">
-        More Publications
-        <i class="fa fa-angle-double-right"></i>
-      </a>
-    </p>
-  </div>
-
-  <div class="col-xs-12 col-md-8">
-    <p><a href="https://scholar.google.com/citations?user=8qUoHroAAAAJ&hl=en" target="_blank">Google Scholar</a> </p>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>[<b>SC&#39;25</b>]
-<i><a>Constraint-Driven Auto-Tuning of GEMM-like Operators for MT-3000 Many-core Processor</a> </i><br/>
-<span itemprop="author">
-  Xinxin Qi, Jianbin Fang, Peng Zhang, Yonggang Che, <strong>Jie Ren</strong>
-</span><br/>
-<i>
-<a href=""  target="_blank" itemprop="url" rel="noopener" style="color:#44b389">  The International Conference for High Performance Computing, Networking, Storage, and Analysis (<strong>SC</strong>)
-</a></i>,
-2025.
-</div>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>[<b>ICPP&#39;25</b>]
-<i><a>Optimizing Attention for Large Language Model Inference on MT-3000 Many-Core Processor</a> </i><br/>
-<span itemprop="author">
-  Pengyu Wang, Xiaotian Chen, Jianbin Fang, Peng Zhang, Yonggang Che, Chun Huang,  <strong>Jie Ren</strong>
-</span><br/>
-<i>
-<a href=""  target="_blank" itemprop="url" rel="noopener" style="color:#44b389"> Proceedings of the 53rd International Conference on Parallel Processing (<strong>ICPP</strong>)
-</a></i>,
-2025.
-</div>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>[<b>IWQoS&#39;25</b>]
-<i><a> STRONGLIVE: Adaptive Offloading and Scene-Aware SR Learning for 4K Live Streaming on Mobile Devices</a> </i><br/>
-<span itemprop="author">
-Rongqing Liu, Yiqi Liu <strong>Jie Ren </strong>, Ling Gao, Jie Zheng
-</span><br/>
-<i>
-<a href=""  target="_blank" itemprop="url" rel="noopener" style="color:#44b389"> The IEEE/ACM International Symposium on Quality of Service (<strong>IWQoS</strong>)
-</a></i>,
-2025.
-</div>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>[<b>IJCAI&#39;25</b>]
-<i><a>Optimizing Personalized Federated Learning through Adaptive Layer-Wise Learning</a> </i><br/>
-<span itemprop="author">
-Weihang Chen, Cheng Yang,  <strong>Jie Ren </strong>, Zhiqiang Li, Zheng Wang
-</span><br/>
-<i>
-<a href=""  target="_blank" itemprop="url" rel="noopener" style="color:#44b389"> The 34th International Joint Conference on Artificial Intelligence (<strong>IJCAI</strong>)
-</a></i>,
-2025.
-</div>
-
-<div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-<i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>[<b>TMC&#39;25</b>]
-<i><a>Trust Online Over-the-air Computation for Wireless Federated Learning</a> </i><br/>
-<span itemprop="author">
-  Mingjie Sun, Jie Zheng, Hongyang Du, Haijun Zhang, Dusit Niyato,
-Jiawen Kang, Jiacheng Wang, <strong>Jie Ren</strong>, Ling Gao, Zheng Wang
-</span><br/>
-<i>
-<a href=""  target="_blank" itemprop="url" rel="noopener" style="color:#44b389"> IEEE Transactions on Mobile Computing (<strong>TMC</strong>)
-</a></i>,
-2025.
-</div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  <section id="projects" class="home-section">
-    <div class="container">
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Projects</h1>
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-    <div class="row isotope projects-container js-layout-row">
-
-        <div class="col-md-12 project-item isotope-item energy-optimisation compiler energy-accouting parallel-computing" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-
-         基于“云-端”融合编译的大规模移动应用能效优化研究
-
-          </span>
-          <p class="project-summary">国家自然科学基金面上项目, PI, 2024 - 2027</p>
-        </div>
-
-        <div class="col-md-12 project-item isotope-item energy-optimisation compiler energy-accouting parallel-computing" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-
-         基于华为鸿蒙操作系统交互式移动应用的自适应编译优化研究
-
-          </span>
-          <p class="project-summary">陕西省重点研发计划-一般项目, PI, 2023 - 2024</p>
-        </div>
-
-        <div class="col-md-12 project-item isotope-item energy-optimisation compiler energy-accouting parallel-computing" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-
-         Energy-efficient resource scheduling for Mobile Web-based Applications: A Quality of Experience Based Approach
-
-          </span>
-          <p class="project-summary">国家自然科学基金青年项目, PI, 2020 - 2022</p>
-        </div>
-
-        <div class="col-md-12 project-item isotope-item bug-detection" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-
-          Optimize web browsing performance based on Maching learning approach.
-
-          </span>
-          <p class="project-summary">Natural Science Basic Research Program of Shaanxi Province, PI, 2019 - 2021</p>
-        </div>
-
-        <div class="col-md-12 project-item isotope-item energy-optimisation compiler mobile-computing runtime" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-
-          Energy and Performance Optimisation for Mobile Systems
-
-          </span>
-          <p class="project-summary">Fundamental Research Funds for the Central Universities, PI, 2018 - 2019</p>
-        </div>
-
-        <div class="col-md-12 project-item isotope-item energy-optimisation compiler mobile-computing runtime" itemscope itemtype="http://schema.org/CreativeWork">
-          <i class="fa fa-files-o pub-icon" aria-hidden="true"></i>
-
-          <span class="project-title">
-
-           Collective Optimisation for Mobile Computing
-
-          </span>
-          <p class="project-summary">Shaanxi Normal University Early Career Grant, PI, 2017 - </p>
-        </div>
-
-    </div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  <section id="teaching" class="home-section">
-    <div class="container">
-
-<div class="row">
-
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Teaching</h1>
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-<h2 id="teaching-Shaanxi-normal-university">Teaching @ Shaanxi Normal University</h2>
-
-<ul>
-<li>Linux basic course, 2021-2022</li>
-<li>Scientific Paper Writing, 2021-2022</li>
-<li>Development of Android Application, 2017-2018, 2019-2020</li>
-<li>Data Structure, 2017-2018, 2019-2020</li>
-<li>Information, Organization and Management, 2017-2018</li>
-</ul>
-
-  </div>
-
-</div>
-
-    </div>
-  </section>
-
-  <section id="services" class="home-section">
-    <div class="container">
-
-<div class="row">
-
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Services</h1>
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-<h2 id="professional-services">Professional Services</h2>
-
-<ul>
-<li> Program Committee Member:<a href="https://cacsuk.co.uk/icac/" target="_blank">ICAC 2024-2025 </a>, <a href="https://ijcai-21.org/" target="_blank">IJCAI 2021-2025 </a>, AAAI 2025, WWW 2026, ECAI 2025, ICPADS 2025, ICME 2024,<a href="https://hpcn.exeter.ac.uk/dsci2021-submission/" target="_blank">DSCI 2021 </a>, <a href="https://hpcn.exeter.ac.uk/socialcom2020/programcommittee.php" target="_blank">SocialCom 2020 </a>, <a href="https://ist.nwu.edu.cn/dfiles/CBD/index.html" target="_blank">CBD 2024, 2021; </a>  <a>TPC ISPA 2025, SocialCom 2025</a></li>
-<li> Outstanding Peer Reviewer of Computer Science in 2024 </li>
-<li>Committee Member: <a href="https://www.ccf.org.cn/Chapters/TC/TC_Listing/TCCOMM/" target="_blank">CCF Network and Data Communications</a></li>
-<li>Session Chair:CBD 2023, HPCC 2022, UIC 2018</li>
-<li>TPC Committee Member: IoTEC 2018</a></li>
-<li>Volunteer Committee Member: <a href="https://china.acm.org/TURC/2017/index.html" target="_blank">ACM TURC 2017</a></li>
-</ul>
-
-  </div>
-
-</div>
-
-    </div>
-  </section>
-
-  <section id="bio" class="home-section">
-    <div class="container">
-
-<div class="row">
-
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Biography</h1>
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-    <ul>
-
-<li>March, 2019 - March, 2020, Academic visiting in Lancaster Universiy and University of Leeds, supported by CSC. Academic advisor:  Professor <a href="https://zwang4.github.io/" target="_blank">Zheng Wang</a>.</li></li>
-<li>July, 2017 -, Lecturer, School of Computer Sciences, Shaanxi Normal University.</li>
-<li>2014 - 2017, PhD Student, the Northwest University. Academic advisor: Professor Ling Gao.</li>
-<li>September, 2015 - March, 2016, Visiting PhD Student, Lancaster University. Aademic advisor: Professor <a href="https://zwang4.github.io/" target="_blank">Zheng Wang</a>.</li>
-<li>2013, System Test Engineer, IBM Xi’an CSTL</li>
-</ul>
-
-</div>
-</div>
-</div>
-</section>
-
-  <section id="contact" class="home-section">
-    <div class="container">
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Contact</h1>
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-    <ul class="fa-ul" itemscope>
-
-      <li>
-        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:%7bname%7d5%20[at]%20%7bsnnu.edu.cn%7d">{name} [at] {snnu.edu.cn}</a></span>
-      </li>
-
-      <li>
-        <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">School of Computer Science, Shaanxi Normal University, Xi'an, China</span>
-      </li>
-
-      <li>
-        <i class="fa-li fa fa-clock-o fa-2x" aria-hidden="true"></i>
-        <span>Please email me for an appointment</span>
-      </li>
-
-    </ul>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
-
-      Jie Ren &copy; 2019 &middot;
-
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
-
-    </p>
-  </div>
-</footer>
-
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Cite</h4>
-      </div>
-      <div>
-        <pre><code class="modal-body tex"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
+      <div class="collapse navbar-collapse" id="main-nav">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
     </div>
-  </div>
-</div>
+  </nav>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+  <main class="main-wrap">
+    <div class="container">
+      <section id="about" class="hero" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <div class="hero-grid">
+          <aside class="profile-card">
+            <div class="portrait" aria-label="Portrait of Jie Ren"></div>
+            <h2 class="profile-name" itemprop="name">Jie Ren</h2>
+            <p class="profile-title" itemprop="jobTitle">Associate Professor</p>
+            <p class="profile-org" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+              <span itemprop="name">Shaanxi Normal University</span>
+            </p>
+            <ul class="profile-links" aria-label="Profile links">
+              <li>
+                <a itemprop="sameAs" href="mailto:renjie@snnu.edu.cn" aria-label="Email">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+                <a itemprop="sameAs" href="https://scholar.google.co.uk/citations?user=8qUoHroAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar">
+                  <i class="ai ai-google-scholar"></i>
+                </a>
+              </li>
+            </ul>
+          </aside>
 
-    <script src="js/hugo-academic.js"></script>
+          <div class="hero-content" itemprop="description">
+            <h1>Jie Ren 任杰</h1>
+            <p class="lead">I am an associate professor at the <a href="http://ccs.snnu.edu.cn/info/1017/9217.htm" target="_blank" rel="noopener">School of Artificial Intelligence and Computer Science</a>, Shaanxi Normal University.</p>
+            <p>I work on compiler and systems research for efficient, reliable, and practical computing. My recent work focuses on compiler and program optimisation, binary analysis and decompilation, efficient large language model inference and training, and mobile or edge AI systems. I am particularly interested in building working systems that combine program analysis, machine learning, and systems techniques to improve performance in real deployment settings.</p>
 
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+            <h2>Research interests</h2>
+            <ul class="plain-list">
+              <li><strong>Compiler and program optimisation:</strong> LLVM-based optimisation, auto-tuning, cross-platform performance portability, and AI-assisted compilers.</li>
+              <li><strong>Binary analysis and decompilation:</strong> lifting optimised binaries to compiler IR, program understanding, and LLM-assisted reverse engineering.</li>
+              <li><strong>Efficient AI systems:</strong> low-latency LLM inference, lightweight training, and edge or mobile deployment.</li>
+              <li><strong>Mobile and edge computing:</strong> performance, energy efficiency, and system support for intelligent applications.</li>
+            </ul>
 
-      <script>hljs.initHighlightingOnLoad();</script>
+            <h2>Students and opportunities</h2>
+            <p>I am looking for motivated students who enjoy programming, systems research, and building real prototypes. If you are interested in compilers, systems, mobile or edge AI, or LLM systems, feel free to email me your CV and transcript.</p>
+            <div class="opportunity-note">
+              <strong>招生信息：</strong>欢迎对编译优化、程序分析、端侧 AI、LLM 系统与移动计算感兴趣的同学联系我。请发送个人简历和成绩单至 <a href="mailto:renjie@snnu.edu.cn">renjie@snnu.edu.cn</a>。
+            </div>
+          </div>
+        </div>
+      </section>
 
-  </body>
+      <section id="news" class="section-block">
+        <h2 class="section-title">News</h2>
+        <div class="section-content">
+          <ul class="news-list">
+            <li><strong>Apr 2025.</strong> STRONGLIVE: Adaptive Offloading and Scene-Aware SR Learning for 4K Live Streaming on Mobile Devices was accepted by IWQoS 2025.</li>
+            <li><strong>Apr 2025.</strong> Optimizing Personalized Federated Learning through Adaptive Layer-Wise Learning was accepted by IJCAI 2025.</li>
+            <li><strong>Mar 2025.</strong> The Impact of Unsupervised Feature Selection Techniques on the Performance and Interpretation of Defect Prediction Models was accepted by <em>Automated Software Engineering</em>.</li>
+            <li><strong>Feb 2025.</strong> LLVMTuner: Predictive Compiler Optimization for LLVM IR Across Heterogeneous Platforms was accepted by CSCWD 2025.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="publications" class="section-block">
+        <h2 class="section-title">Selected publications</h2>
+        <div class="section-content">
+          <a class="more-link" href="/home/publications.html">More publications →</a>
+          <p class="muted"><a href="https://scholar.google.com/citations?user=8qUoHroAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a></p>
+
+          <article class="pub-item" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-venue">SC 2025</div>
+            <h3 class="pub-title" itemprop="name">Constraint-Driven Auto-Tuning of GEMM-like Operators for MT-3000 Many-core Processor</h3>
+            <div class="pub-authors" itemprop="author">Xinxin Qi, Jianbin Fang, Peng Zhang, Yonggang Che, <strong>Jie Ren</strong></div>
+            <div class="pub-meta"><em>The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)</em>, 2025.</div>
+          </article>
+
+          <article class="pub-item" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-venue">ICPP 2025</div>
+            <h3 class="pub-title" itemprop="name">Optimizing Attention for Large Language Model Inference on MT-3000 Many-Core Processor</h3>
+            <div class="pub-authors" itemprop="author">Pengyu Wang, Xiaotian Chen, Jianbin Fang, Peng Zhang, Yonggang Che, Chun Huang, <strong>Jie Ren</strong></div>
+            <div class="pub-meta"><em>Proceedings of the 53rd International Conference on Parallel Processing (ICPP)</em>, 2025.</div>
+          </article>
+
+          <article class="pub-item" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-venue">IWQoS 2025</div>
+            <h3 class="pub-title" itemprop="name">STRONGLIVE: Adaptive Offloading and Scene-Aware SR Learning for 4K Live Streaming on Mobile Devices</h3>
+            <div class="pub-authors" itemprop="author">Rongqing Liu, Yiqi Liu, <strong>Jie Ren</strong>, Ling Gao, Jie Zheng</div>
+            <div class="pub-meta"><em>The IEEE/ACM International Symposium on Quality of Service (IWQoS)</em>, 2025.</div>
+          </article>
+
+          <article class="pub-item" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-venue">IJCAI 2025</div>
+            <h3 class="pub-title" itemprop="name">Optimizing Personalized Federated Learning through Adaptive Layer-Wise Learning</h3>
+            <div class="pub-authors" itemprop="author">Weihang Chen, Cheng Yang, <strong>Jie Ren</strong>, Zhiqiang Li, Zheng Wang</div>
+            <div class="pub-meta"><em>The International Joint Conference on Artificial Intelligence (IJCAI)</em>, 2025.</div>
+          </article>
+
+          <article class="pub-item" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-venue">TMC 2025</div>
+            <h3 class="pub-title" itemprop="name">Trust Online Over-the-air Computation for Wireless Federated Learning</h3>
+            <div class="pub-authors" itemprop="author">Mingjie Sun, Jie Zheng, Hongyang Du, Haijun Zhang, Dusit Niyato, Jiawen Kang, Jiacheng Wang, <strong>Jie Ren</strong>, Ling Gao, Zheng Wang</div>
+            <div class="pub-meta"><em>IEEE Transactions on Mobile Computing (TMC)</em>, 2025.</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section-block">
+        <h2 class="section-title">Research projects</h2>
+        <div class="section-content">
+          <article class="project-item">
+            <h3 class="project-title">基于“云-端”融合编译的大规模移动应用能效优化研究</h3>
+            <div class="project-meta">国家自然科学基金面上项目, PI, 2024–2027</div>
+          </article>
+          <article class="project-item">
+            <h3 class="project-title">基于华为鸿蒙操作系统交互式移动应用的自适应编译优化研究</h3>
+            <div class="project-meta">陕西省重点研发计划一般项目, PI, 2023–2024</div>
+          </article>
+          <article class="project-item">
+            <h3 class="project-title">Energy-efficient Resource Scheduling for Mobile Web-based Applications: A Quality-of-Experience Based Approach</h3>
+            <div class="project-meta">National Natural Science Foundation of China, PI, 2020–2022</div>
+          </article>
+          <article class="project-item">
+            <h3 class="project-title">Optimize Web Browsing Performance Based on Machine Learning</h3>
+            <div class="project-meta">Shaanxi Natural Science Basic Research Program, PI, 2019–2021</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section-block">
+        <h2 class="section-title">Services</h2>
+        <div class="section-content">
+          <ul class="plain-list">
+            <li><strong>Program committee and reviewer:</strong> ICAC 2024–2025, IJCAI 2021–2025, AAAI 2025, WWW 2026, ECAI 2025, ICPADS 2025, ICME 2024, CBD 2024/2021, DSCI 2021, SocialCom 2020/2025, and ISPA 2025.</li>
+            <li><strong>Awards and recognition:</strong> Outstanding Peer Reviewer of Computer Science in 2024.</li>
+            <li><strong>Professional service:</strong> Committee Member, CCF Network and Data Communications; Session Chair at CBD 2023, HPCC 2022, and UIC 2018.</li>
+            <li><strong>Community service:</strong> Volunteer Committee Member, ACM TURC 2017.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block">
+        <h2 class="section-title">Contact</h2>
+        <div class="section-content">
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:renjie@snnu.edu.cn">renjie@snnu.edu.cn</a></li>
+            <li><strong>Address:</strong> School of Artificial Intelligence and Computer Science, Shaanxi Normal University, Xi'an, China</li>
+            <li><strong>Appointments:</strong> Please email me to arrange a meeting.</li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>Jie Ren &copy; 2026 · <a href="#top">Back to top</a></p>
+      </footer>
+    </div>
+  </main>
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement('script');
+      hm.src = 'https://hm.baidu.com/hm.js?abf2e9f18622c1aac8979195271c852e';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+</body>
 </html>
