@@ -130,7 +130,7 @@
       color: #444;
       margin: 0 0 6px;
     }
-    .profile-org { margin-bottom: 14px; }
+    .profile-org { margin-bottom: 14px; overflow-wrap: break-word; word-break: break-word; }
     .profile-links {
       list-style: none;
       padding: 0;
@@ -262,36 +262,113 @@
     .site-footer a { color: var(--light); }
 
     @media (max-width: 991px) {
-      body { font-size: 19px; }
+      body { font-size: 18px; }
       .hero-grid {
         grid-template-columns: 1fr;
         gap: 18px;
       }
       .profile-card {
         position: static;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 16px;
       }
       .portrait {
-        width: 180px;
-        height: 180px;
+        width: 140px;
+        height: 140px;
+        flex-shrink: 0;
+        margin-bottom: 0;
       }
-      .hero-content h1 { font-size: 36px; }
-      .hero-content h2,
-      .section-title { font-size: 30px; }
-    }
-
-    @media (max-width: 767px) {
-      body { padding-top: 62px; }
-      .main-wrap { padding-left: 8px; padding-right: 8px; }
-      .navbar-custom .navbar-brand { font-size: 24px; }
+      .profile-card .profile-name,
+      .profile-card .profile-title,
+      .profile-card .profile-org,
+      .profile-card .profile-links {
+        flex: 1 1 calc(100% - 156px);
+        min-width: 200px;
+      }
+      .profile-card .profile-name { font-size: 30px; margin-bottom: 2px; }
+      .profile-card .profile-title { font-size: 18px; }
+      .profile-card .profile-org { font-size: 16px; margin-bottom: 6px; }
       .hero-content h1 { font-size: 32px; }
       .hero-content h2,
       .section-title { font-size: 28px; }
-      .pub-title,
-      .project-title { font-size: 22px; }
-      .navbar-custom .navbar-nav > li > a {
-        padding-top: 10px;
-        padding-bottom: 10px;
+      .hero-content .lead { font-size: 19px; }
+    }
+
+    @media (max-width: 767px) {
+      body { font-size: 17px; padding-top: 56px; }
+      .main-wrap { padding: 16px 10px 40px; }
+      .navbar-custom { min-height: 50px; }
+      .navbar-custom .navbar-brand { font-size: 22px; height: 50px; line-height: 30px; padding-top: 10px; }
+      .navbar-custom .navbar-toggle { margin-top: 8px; }
+      .hero { padding: 10px 0 14px; }
+      .hero-grid { gap: 12px; }
+      .portrait {
+        width: 110px;
+        height: 110px;
       }
+      .profile-card .profile-name { font-size: 26px; }
+      .profile-card .profile-title { font-size: 16px; }
+      .profile-card .profile-org { font-size: 15px; }
+      .profile-card .profile-links a { font-size: 22px; }
+      .profile-card .profile-links { gap: 12px; }
+      .hero-content h1 { font-size: 28px; }
+      .hero-content h2,
+      .section-title { font-size: 24px; }
+      .hero-content .lead { font-size: 17px; }
+      .hero-content h2 { margin: 28px 0 10px; }
+      .pub-title,
+      .project-title { font-size: 20px; }
+      .pub-venue { font-size: 14px; }
+      .section-block { padding: 24px 0; }
+      .section-content h3 { font-size: 20px; margin: 18px 0 8px; }
+      .opportunity-note { font-size: 16px; padding: 10px 12px; }
+      .site-footer { font-size: 16px; padding: 20px 0 36px; }
+      .navbar-custom .navbar-nav > li > a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body { font-size: 16px; line-height: 1.65; }
+      .main-wrap { padding: 12px 6px 32px; }
+      .hero { padding: 6px 0 10px; }
+      .hero-grid { gap: 10px; }
+      .profile-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+      }
+      .portrait {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+      .profile-card .profile-name { font-size: 24px; }
+      .profile-card .profile-title { font-size: 15px; }
+      .profile-card .profile-org { font-size: 14px; }
+      .profile-card .profile-links { min-width: 0; }
+      .hero-content h1 { font-size: 24px; }
+      .hero-content h2,
+      .section-title { font-size: 22px; }
+      .hero-content .lead { font-size: 16px; }
+      .hero-content h2 { margin: 22px 0 8px; }
+      .pub-title,
+      .project-title { font-size: 18px; }
+      .pub-item,
+      .project-item { padding-bottom: 14px; margin-bottom: 14px; }
+      .section-block { padding: 18px 0; }
+      .section-content h3 { font-size: 18px; margin: 14px 0 6px; }
+      .opportunity-note { font-size: 15px; padding: 8px 10px; }
+      .site-footer { font-size: 14px; padding: 16px 0 28px; }
+      .navbar-custom .navbar-brand { font-size: 20px; }
+      .navbar-custom .navbar-nav > li > a { font-size: 15px; }
+      .pub-venue { font-size: 13px; }
+      .profile-links a { font-size: 24px; }
+      .profile-links { gap: 18px; }
     }
   </style>
 </head>
