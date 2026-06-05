@@ -194,16 +194,18 @@
     }
     .team-photo {
       margin: 18px 0 16px;
-      text-align: center;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      align-items: stretch;
     }
     .team-photo img {
-      max-width: 100%;
+      flex: 1;
+      min-width: 0;
+      max-width: calc(50% - 6px);
       height: auto;
       border-radius: 6px;
       border: 1px solid var(--border);
-    }
-    .team-photo img + img {
-      margin-top: 12px;
     }
 
     .news-list,
